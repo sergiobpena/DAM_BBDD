@@ -18,3 +18,21 @@ Vamos a crear las tablas para una Academia donde se imparten distintos cursos de
 	+ La fecha de comienzo del curso nunca puede ser menor que la fecha de finalización.
 	+ El dominio del atributo sexo es M (mujer) y H (hombre).
 	+ Se debe cumplir la regla de integridad referencial.
+
+
+## Ejercicio 2
+Vamos a modificar las tablas que hemos creado en el apartado anterior:
+
+1. Crea un nuevo atributo llamado Edad de tipo numérico a la tabla ALUMNOS.
+Añade las siguientes restricciones:
+
+2. Modifica el campo que has creado anteriormente para que la edad del alumno o alumna esté comprendida entre 14 y 65 años.
+3. Modifica el campo Número de horas del CURSO de manera que solo pueda haber cursos con 30, 40 o 60 horas.
+4. No podemos añadir un curso si su número máximo de alumnos es inferior a 15.
+5. Elimina la restricción que controla los valores que puede tomar el atributo Sexo.
+6. Elimina la columna Dirección de la tabla PROFESORES.
+7. Cambia la clave primaria de la tabla PROFESORES por Nombre y Apellidos.
+8. Renombra la tabla PROFESORES por TUTORES.
+9. Elimina la tabla ALUMNOS.
+10. Crea un usuario con tu nombre y clave BD02 y dale todos los privilegios sobre la tabla CURSOS.
+11. Ahora al usuario anterior quítale permisos para modificar o actualizar la tabla CURSOS.
