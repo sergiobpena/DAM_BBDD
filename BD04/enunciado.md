@@ -13,6 +13,7 @@ El gerente le ha explicado como funciona la gestión de nóminas y Juan, que ser
 Con todos estos datos ha llegado al siguiente modelo entidad-relación:
 
 ![](./BD04_TAREA_R01_MODELO.jpeg)
+
 También ha creado las bases y ha insertado algunos datos para realizar pruebas de las consultas que haga.
 
 Todo está listo para que le ayudes. Estas son las consultas que debes crear:
